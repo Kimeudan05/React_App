@@ -1,0 +1,20 @@
+[
+  {
+    "id":1,
+    "name":"Rock Paper Scissors",
+    "depdate":"23/02/2023",
+    "description" :"A rock paper scissors game to practice on functions and math module of javascript"
+  },
+  {
+    "id":2,
+    "name":"Caculator",
+    "depdate":"10/11/2023",
+    "description" :"A calculator app to practice much on grid layout in css"
+  },
+  {
+    "id":1,
+    "name":"Dom manipulation",
+    "depdate":"23/02/2011",
+    "description" :"Dom manipulation deals with creadtion, updation and deletion of nodes i javascript"
+  }
+]
