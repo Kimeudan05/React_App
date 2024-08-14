@@ -1,132 +1,49 @@
 {
- "homepage":"https://kimeu.github.io/React_App",
+  "homepage": "https://kimeu.github.io/React_App",
   "name": "web",
- 
   "version": "0.1.0",
- 
   "private": true,
- 
   "dependencies": {
- 
-   
-  "@testing-library/jest-dom": "^5.17.0",
- 
-   
-  "@testing-library/react": "^13.4.0",
- 
-   
-  "@testing-library/user-event": "^13.5.0",
- 
-   
-  "axios": "^1.7.3",
- 
-   
-  "bootstrap": "^5.3.3",
- 
-   
-  "font-awesome": "^4.7.0",
- 
-   
-  "gh-pages": "^6.1.1",
- 
-   
-  "json-server": "^1.0.0-beta.1",
- 
-   
-  "react": "^18.3.1",
- 
-   
-  "react-bootstrap": "^2.10.4",
- 
-   
-  "react-dom": "^18.3.1",
- 
-   
-  "react-router-dom": "^6.25.1",
- 
-   
-  "react-scripts": "5.0.1",
- 
-   
-  "web-vitals": "^2.1.4",
- 
-   
-  "whatwg-fetch": "^3.6.20"
- 
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.7.3",
+    "bootstrap": "^5.3.3",
+    "font-awesome": "^4.7.0",
+    "gh-pages": "^6.1.1",
+    "json-server": "^1.0.0-beta.1",
+    "react": "^18.3.1",
+    "react-bootstrap": "^2.10.4",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.25.1",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4",
+    "whatwg-fetch": "^3.6.20"
   },
- 
   "scripts": {
- "predeploy":"npm run build",
- "deploy":"gh-pages -d build",
-   
-  "start": "react-scripts start",
- 
-   
-  "build": "react-scripts build",
- 
-   
-  "test": "react-scripts test",
- 
-   
-  "eject": "react-scripts eject"
- 
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
- 
   "eslintConfig": {
- 
-   
-  "extends": [
- 
-   
-   
-  "react-app",
- 
-   
-   
-  "react-app/jest"
- 
-   
-  ]
- 
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
   },
- 
   "browserslist": {
- 
-   
-  "production": [
- 
-   
-   
-  ">0.2%",
- 
-   
-   
-  "not dead",
- 
-   
-   
-  "not op_mini all"
- 
-   
-  ],
- 
-   
-  "development": [
- 
-   
-   
-  "last 1 chrome version",
- 
-   
-   
-  "last 1 firefox version",
- 
-   
-   
-  "last 1 safari version"
- 
-   
-  ]
- 
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }

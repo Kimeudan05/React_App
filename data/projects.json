@@ -1,0 +1,40 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "name": "Rock Paper Scissors",
+      "deploy_date": "23/02/2023",
+      "description": "A rock paper scissors game to practice on functions and math module of javascript"
+    },
+    {
+      "id": 2,
+      "name": "Caculator",
+      "deploy_date": "10/11/2023",
+      "description": "A calculator app to practice much on grid layout in css"
+    },
+    {
+      "id": 3,
+      "name": "Dom manipulation",
+      "deploy_date": "23/02/2011",
+      "description": "Dom manipulation deals with creadtion, updation and deletion of nodes i javascript"
+    },
+    {
+      "id": 4,
+      "name": "School portal",
+      "deploy_date": "02/03/2024",
+      "description": "the project is designed using the concept of rest api to fetch data from an online source"
+    },
+    {
+      "id": 5,
+      "name": "Caculator",
+      "deploy_date": "13/07/2024",
+      "description": "To do list app is designed to ewscord tasks which you ought to do over time. it uses the concept of local storage to make them available even after page refresh"
+    },
+    {
+      "id": 6,
+      "name": "Mpesa integration",
+      "deploy_date": "30/08/2024",
+      "description": "it uses safaricom daraja api to integrate mpesa "
+    }
+  ]
+}

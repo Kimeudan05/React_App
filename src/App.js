@@ -11,16 +11,21 @@ import Calculator from './pages/projects/Calculator'
 import Dom from './pages/projects/Dom'
 import NotFound from './pages/NotFound'
 import ProjectsLayout from './pages/ProjectsLayout'
+import Projects, { projectsLoader } from './pages/projects/Projects'
+import ProjectDetails, { projectsDetailsLoader } from './pages/projects/ProjectDetails'
 
 const routerDev = createBrowserRouter(
 createRoutesFromElements(
   <Route path='/' element={<RootLayout />}>
     <Route index element={<Home />} />
     <Route path='about' element={<About />} />
-    <Route path='project' element={<ProjectsLayout />} >
-      <Route path='rock' element={<RockPaper/>} />
+    <Route path='projects' element={<ProjectsLayout />} >
+      <Route loader ={projectsLoader} index element={<Projects />} />
+      
+      <Route loader ={projectsDetailsLoader} path=':id' element={ <ProjectDetails/>} />
+      {/* <Route path='rock' element={<RockPaper/>} />
       <Route path='calculator' element={<Calculator/> } />
-      <Route path='dom' element={ <Dom/>} />
+      <Route path='dom' element={ <Dom/>} /> */}
     </Route>
     <Route path='help' element={<HelpLayout />} >
       <Route path='faq' element={<Faq />} />
@@ -32,8 +37,6 @@ createRoutesFromElements(
 
 );
 
-
-
 const App = () => {
   return (
     <RouterProvider router={routerDev} />
@@ -41,3 +44,4 @@ const App = () => {
 }
 
 export default App
+
